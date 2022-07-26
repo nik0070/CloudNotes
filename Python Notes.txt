@@ -1,0 +1,4 @@
+1. import json => json.dumps(dict_var, indent=4) 
+	with open('demo.json', 'w') as f:
+		json.dump(dict_var, f, indent=4)
+
