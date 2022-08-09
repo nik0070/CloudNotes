@@ -8,6 +8,7 @@ gg -> Go to top of the page
 }  -> Go up a BLOCK of code
 
 dd -> CUT the line and COPIES to your clipboard ( where cursor is ) [ Cut operation ]
+x  -> CUT in View mode.
 yy -> COPIES the line to clipboard
 p  -> PASTE below
 P  -> PASTE above
