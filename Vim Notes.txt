@@ -1,0 +1,53 @@
+wq -> Save and quit
+q! -> Quit without save
+
+G  -> Go to bottom of the page
+gg -> Go to top of the page
+
+{  -> Go down a BLOCK of code
+}  -> Go up a BLOCK of code
+
+dd -> CUT the line and COPIES to your clipboard ( where cursor is ) [ Cut operation ]
+yy -> COPIES the line to clipboard
+p  -> PASTE below
+P  -> PASTE above
+
+u  -> undo the deleted line or cut line ( by dd command ) 
+ctrl + r  -> Redo ( To undo the undo commmand )
+
+ctrl + v  -> View mode ( select the lines of text to delete or copy or cut )
+
+. -> Re does the last command executed
+
+d + { or } -> Delete the entire Code BLOCK
+
+b or w -> Move left or right WORD by WORD ( Capital W, B ( next space ) will move you even further each step )
+
+0 -> Takes you to the very beginning of the line ( use it with w to quickly go to the code = 0 + w )
+
+esc -> To cancel any command ( lets say i press d and i dont want to delete by pressing another d then i press esc to clear the previous d from memory )
+
+D  -> on a line will delete all the code after the cursor.
+
+d + t + ( the ch before which all will be deleted )  -> Deletes all the content from the cursor to the specified character in a line
+
+zz -> To get your cursor to the middle of the screen.
+
+A  -> To take the cursor to the end of the line in insert mode
+
+I  -> Go to the start of the line in insert mode.
+
+~  -> Converts the capitalization of the letters.
+
+
+
+
+
+
+
+
+----------------- Number + Vim Commands ( Almost all commmands works with numbers they will perform the same operation that many times. -------------------
+
+Number + Navigation Keys(h, j, k, l) -> The number of lines to skip E.g. => 10 + j ( will go dirctly 10 lines below the current position of cursor)
+
+Number + { or } -> Will take me that may code blocks below or up
