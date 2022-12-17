@@ -89,8 +89,11 @@ fib = fibbonacci(10)
 for i in fib:
     print(i)
 
-# 7. One line generators are creasd in the same way as list comprehension. We use () brackes instead of [], that's it.
+# 7. One line generators are created in the same way as list comprehension. We use () brackes instead of [], that's it.
 
 # ===============================================================================================================
 
-# 8. 
+# 8. conda commands to add a virtual environment to jupyter notebook
+	# pip install --user ipykernel
+	# python -m ipykernel install --user --name=myenv
+			
