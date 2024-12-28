@@ -1,0 +1,36 @@
+GitHub is no longer accepting account passwords when authenticating Git operations. 
+Need to add a PAT (Personal Access Token) instead, 
+Follow the below method to add a PAT on system.
+
+Create Personal Access Token on GitHub :
+
+From GitHub account, go to Settings → Developer Settings → Personal Access Token → Tokens (classic) → Generate New Token (Give your password) → Fillup the form → click Generate token → Copy the generated Token, it will be something like ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta
+
+
+For Windows OS :
+
+Go to Credential Manager from Control Panel → Windows Credentials → find git:https://github.com → Edit → On Password replace with with your GitHub Personal Access Token → You are Done
+
+If you don’t find git:https://github.com → Click on Add a generic credential → Internet address will be git:https://github.com and you need to type in your username and password will be your GitHub Personal Access Token → Click Ok 
+
+For a Linux-based OS :
+
+For Linux, you need to configure the local GIT client with a username and email address,
+
+$ git config --global user.name "your_github_username"
+$ git config --global user.email "your_github_email"
+$ git config -l
+
+$ git push -u origin master
+> Cloning into `YOUR-REPOSITORY`...
+Username: <type your username>
+Password: <type/paste  personal access token (GitHub)
+
+Now cache the given record in your computer to remembers the token:
+
+$ git config --global credential.helper cache
+
+If needed, anytime you can delete the cache record by:
+
+$ git config --global --unset credential.helper
+$ git config --system --unset credential.helper
