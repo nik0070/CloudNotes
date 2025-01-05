@@ -96,4 +96,8 @@ for i in fib:
 # 8. conda commands to add a virtual environment to jupyter notebook
 	# pip install --user ipykernel
 	# python -m ipykernel install --user --name=myenv
-			
+		
+# One liner if else 
+if something: somefunc()
+else: otherfunc()
+
