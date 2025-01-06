@@ -1,7 +1,0 @@
-tasklist      =>    Lists all tasks that are currently active
-tracert       =>    tracert <host name> ; traces the routing path from 
-		    your system to the target host
-ipconfig/all  =>    shows the ip and mac address
-driverquery   =>    List of drivers currently installed in the system
-assoc         =>    List the association b/w file ext. and their corresponding
-                    programs
